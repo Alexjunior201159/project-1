@@ -4,10 +4,10 @@
 title = Coleta
 
 # (str) Package name
-package.name = myapp
+package.name = coleta
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.coleta
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,Kivy,kivymd==1.2.0,pillow,pygments,pypiwin32
+requirements = python3,Kivy==2.3.0,kivymd==1.2.0,pillow,pygments==2.18.0,pypiwin32,kivy-Garden,openpyxl==3.1.3,Cython==3.0.10
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -102,10 +102,10 @@ fullscreen = 1
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 31
+android.api = 32
 
 # (int) Minimum API your APK / AAB will support.
-android.minapi = 21
+android.minapi = 28
 
 # (int) Android SDK version to use
 #android.sdk = 20
