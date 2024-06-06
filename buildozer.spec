@@ -16,13 +16,13 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 
 # Versão do aplicativo
-version = 0.1
+version = 0.0.1
 
 # Lista de requisitos do aplicativo
 requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow,pygments==2.8.0,kivy-garden,openpyxl==3.0.7,Cython==0.29.23
 
 # Ícone do aplicativo
-icon.filename = icon.png
+#icon.filename = icon.png
 
 # Orientações suportadas
 orientation = portrait
@@ -33,10 +33,10 @@ orientation = portrait
 fullscreen = 1
 
 # API de destino do Android, deve ser o mais alto possível
-android.api = 32
+android.api = 30
 
 # API mínima que o APK / AAB suportará
-android.minapi = 21
+android.minapi = 28
 
 # Versão do SDK do Android a ser usada
 android.ndk = 25b
