@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,Kivy==2.3.0,kivymd==1.2.0,pillow,pygments==2.18.0,pypiwin32,kivy-Garden,openpyxl==3.1.3,Cython==3.0.10
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow,pygments==2.8.0,pypiwin32,kivy-garden,openpyxl==3.0.7,Cython==0.29.23
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -105,7 +105,7 @@ fullscreen = 1
 android.api = 32
 
 # (int) Minimum API your APK / AAB will support.
-android.minapi = 28
+android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
