@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.0.1
 
 # Lista de requisitos do aplicativo
-requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow,pygments==2.8.0,kivy-garden,openpyxl==3.0.7,Cython==0.29.23
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow,pygments==2.8.0,kivy-garden,Cython==0.29.31
 
 # Ícone do aplicativo
 #icon.filename = icon.png
